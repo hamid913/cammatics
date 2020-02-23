@@ -20,20 +20,20 @@ app.get('/safety',(req,response)=>
 
 });
 
-// app.get('/efficiency',(req,response)=>
-// {
-//     fs.readFile('./html/our goal/efficiency.html', function (err, html) {
-//     if (err) {
-//         throw err;
-//     }
-//     else{
-//         response.writeHeader(200, {"Content-Type": "text/html"});
-//         response.write(html);
-//         response.end();
-//     }
-//     });
+app.get('/efficiency',(req,response)=>
+{
+    fs.readFile('./html/our goal/efficiency.html', function (err, html) {
+    if (err) {
+        throw err;
+    }
+    else{
+        response.writeHeader(200, {"Content-Type": "text/html"});
+        response.write(html);
+        response.end();
+    }
+    });
 
-// });
+});
 
 // app.get('/sustainability',(req,response)=>
 // {
