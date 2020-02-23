@@ -35,20 +35,20 @@ app.get('/efficiency',(req,response)=>
 
 });
 
-// app.get('/sustainability',(req,response)=>
-// {
-//    fs.readFile('./html/our goal/sustainability.html', function (err, html) {
-//     if (err) {
-//         throw err;
-//     }
-//     else{
-//         response.writeHeader(200, {"Content-Type": "text/html"});
-//         response.write(html);
-//         response.end();
-//     }
-//     });
+app.get('/sustainability',(req,response)=>
+{
+   fs.readFile('./html/our goal/sustainability.html', function (err, html) {
+    if (err) {
+        throw err;
+    }
+    else{
+        response.writeHeader(200, {"Content-Type": "text/html"});
+        response.write(html);
+        response.end();
+    }
+    });
 
-// });
+});
 
 
 const PORT = process.env.PORT || 5000;
