@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <title>cammatics | ROI Calculator for Small Fleets</title>
+    <!-- Jquery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- End Jquery -->
+</head>
+
+<body id="index" class="ai-dash-cam camera-overview sustainability safety maison-typo">
+    <!-- Language Selector Popup -->
+    <div class="site-wrapper">
+        <div id="international-nav" class="main-header" style="display: inline-block;">
+            <div id="header-cont-2">
+                <div id="intl-text">Choose another country or region to see content specific to your location</div>
+            </div>
+        </div>
+        <div id="get-started-header" class="main-header">
+            <div id="header-cont">
+                <a href="/">
+                    logo
+                </a>
+                <a id="intl-ctn" href="/pricing" class="button primary-btn" title="Check our prices">CHECK OUR PRICES</a>
+            </div>
+        </div>
+        <header id="site-header">
+            <div class="site-main">
+                <div class="header-top">
+                    <ul class="header-link">
+                        <li class="mobile-link">
+                            <a href="tel:4159852400" title="Call us">905-903-9120</a>
+                        </li>
+                        <li class="mobile-link visible-mobile-nav" style="width:100%;"></li>
+                        <li class="">
+                            <a href="/contact" title="Contact Sales">Contact Sales</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-main">
+                    <a href="home.html" title="cammatics" class="logo">
+                        <img src="images/logo.png">
+                    </a>
+                    <nav class="main-navigation nav-custom">
+                        <div class="menu-icon">
+                            <div class="menu-box">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <ul class="primary-nav">
+                            <li class="mega-big has-sub-menu">
+                                <a href="#" title="Our Goal">Our Goal</a>
+                                <b class="subArrow"></b>
+                                <div class="megamenu medium-menu">
+                                    <div class="subArrowDesktop"></div>
+                                    <div class="megamenu-left">
+                                        <div class="nav-column-wrap">
+                                            <div class="nav-column">
+                                                <p>The leader in Industrial IoT.
+                                                    <br>
+                                                    <br> Increase the safety, efficiency, and sustainability of the operations
+                                                    that power our economy.</p>
+                                            </div>
+                                            <div class="nav-column">
+                                                <h3>
+                                                    <a href="/safety" title="Safety"> Risk Management</a>
+                                                </h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        Prevent accidents and save lives
+                                                    </li>
+                                                </ul>
+                                                <h3>
+                                                    <a href="/efficiency" title="Efficiency"> 24/7 Surveillance </a>
+                                                </h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        Increase productivity and decrease costs
+                                                    </li>
+                                                </ul>
+                                                <h3>
+                                                    <a href="/sustainability" title="Sustainability">Reduce Fuel cost </a>
+                                                </h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        Reduce environmental impact
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="mega-big has-sub-menu">
+                                    <a href="#" title="Fleet">Fleet</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="megamenu-left">
+                                            <div class="nav-column-wrap">
+                                                <div class="nav-column">
+                                                    <h3>Telematics</h3>
+                                                    <ul class="space-bottom">
+                                                        <li>
+                                                            <a href="/fleet" title="Fleet Overview"> Fleet Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/gps-fleet-tracking" title="GPS Fleet Tracking"> GPS Fleet Tracking</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/fuel-and-maintenance" title="Fuel &amp; Maintenance"> Fuel &amp; Maintenance</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/trailer-tracking" title="Trailer Tracking"> Trailer Tracking</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/reefer-monitoring" title="Fleet Maintenance"> Reefer Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/equipment-tracking" title="Equipment Tracking"> Equipment Tracking</a>
+                                                        </li>
+                                                    </ul>
+                                                    <h3>
+                                                        Safety
+                                                    </h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/fleet/dash-cam" title="AI Dash Cams"> AI Dash Cams</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/safety/driver" title="Driver Safety &amp; Coaching"> Driver Safety &amp; Coaching</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Connected Driver</h3>
+                                                    <ul class="space-bottom">
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/driver-workflow" title="Driver Workflow"> Driver Workflow</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/document-management" title="Documents &amp; Messaging"> Documents &amp; Messaging</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/routing" title="Routing &amp; Dispatch"> Routing &amp; Dispatch</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/eld-compliance" title="Compliance &amp; ELD"> Compliance &amp; ELD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/dvir" title="DVIR"> DVIR</a>
+                                                        </li>
+                                                    </ul>
+                                                    <h3>Partners</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/marketplace" title="Marketplace"> Marketplace</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/partner-programs" title="Partner Programs"> Partner Programs</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Industry Solutions</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/fleet/logistics" title="Transportation &amp; Logistics"> Transportation &amp; Logistics</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/food-and-beverage" title="Food &amp; Beverage"> Food &amp; Beverage</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/construction" title="Construction"> Construction</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/higher-education" title="Higher Education"> Higher Education</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/state-local-government" title="State &amp; Local Government"> State &amp; Local Government</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/utilities" title="Utilities"> Utilities</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/passenger-transit" title="Passenger Transit"> Passenger Transit</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/field-services" title="Field Service Fleets"> Field Service Fleets</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="specs-wrap">
+                                                <div class="view-more-specs">
+                                                    <a href="/products/models" title="View hardware models and specs">View hardware models and specs </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megamenu-right">
+                                            <div class="nav-column">
+                                                <h3>Resources</h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        <a href="/roi-calculator" title="ROI Calculator">ROI Calculator</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/roi-calculator-express" title="SMB Savings Calculator">SMB Savings Calculator</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://kb.cammatics.com" title="Knowledge Base">Knowledge Base</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/videos/" title="Video Library">Video Library</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/fleet/product-tours" title="Product Tours">Product Tours</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/security" title="Security">Security</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/docs" title="Docs">Docs</a>
+                                                    </li>
+                                                </ul>
+                                                <h3>Developers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/developers/" title="Overview">Overview</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/developers/changelog" title="API Changelog">API Changelog</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/api" title="Developer APIs">Developer APIs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/marketplace/" title="App Marketplace">App Marketplace</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <!-- <li class="mega-big has-sub-menu">
+                                    <a href="#" title="Factory">Factory</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="megamenu-left">
+                                            <div class="nav-column-wrap">
+                                                <div class="nav-column">
+                                                    <h3>Product</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/process-monitoring" title="Process Monitoring">Process Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/condition-monitoring" title="Condition Monitoring">Condition Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision" title="Quality Inspection">Quality Inspection</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Industry Solutions</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/consumer-goods" title="Consumer Goods">Consumer Goods</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/pharmaceuticals" title="Pharmaceuticals">Pharmaceuticals</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/automotive" title="Automotive">Automotive</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/food-beverage" title="Food &amp; Beverage">Food &amp; Beverage</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="specs-wrap">
+                                                <div class="view-more-specs">
+                                                    <a href="/products/industrial-models" title="View industrial hardware models and specs">View industrial hardware models and specs </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megamenu-right">
+                                            <div class="nav-column">
+                                                <h3>Resources</h3>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/api" title="Developer APIs">Developer APIs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/security" title="Security">Security</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/docs" title="Docs">Docs</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <!-- <li class="mega-big has-sub-menu">
+                                    <a href="#" title="Infrastructure">Infrastructure</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="megamenu-left">
+                                            <div class="nav-column-wrap">
+                                                <div class="nav-column">
+                                                    <h3>Product</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/remote-monitoring" title="Remote Monitoring">Remote Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/condition-monitoring" title="Condition Monitoring">Condition Monitoring</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Industry Solutions</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/industrial/oil-gas" title="Oil &amp; Gas">Oil &amp; Gas</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/water" title="Water">Water</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="specs-wrap">
+                                                <div class="view-more-specs">
+                                                    <a href="/products/industrial-models" title="View industrial hardware models and specs">View industrial hardware models and specs
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megamenu-right">
+                                            <div class="nav-column">
+                                                <h3>Resources</h3>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/api" title="Developer APIs">Developer APIs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/security" title="Security">Security</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/docs" title="Docs">Docs</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <li class="mega-small has-sub-menu">
+                                <a href="/customers/" title="Customers">Browse Solutions</a>
+                                <b class="subArrow"></b>
+                                <div class="megamenu">
+                                    <div class="subArrowDesktop"></div>
+                                    <div class="nav-column nav-full-width">
+                                        <ul>
+                                            <li>
+                                                <a href="/eld-hos" title="ELD/HOS">ELD/HOS</a>
+                                            </li>
+                                            <li>
+                                                <a href="/dash-cam" title="Dash Cam">Dash Cam</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" title="Diagnostic">Diagnostic</a>
+                                            </li>
+                                            <li>
+                                                <a href="/dvir" title="DVIR ">DVIR </a>
+                                            </li>
+                                            <li>
+                                                <a href="/drivers-training" title="Field Services">Drivers Training</a>
+                                            </li>
+                                            <li>
+                                                <a href="/oil-gas" title="Field Services">Oil and Gas</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="mega-small has-sub-menu">
+                                    <a class="active" href="#" title="About Us">About Us</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="nav-column nav-full-width">
+                                            <ul>
+                                                <li>
+                                                    <a href="/about" title="About">About</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/careers" title="Careers">Careers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/diversity" title="Diversity">Diversity</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/contact" title="Contact">Contact</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/news" title="News">News</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/blog/" title="Blog">Blog</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/events/safety" title="Events">Events</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <!-- <li class="support-mobile mega-small has-sub-menu">
+                                    <a href="https://kb.cammatics.com" title="Support">Support</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="nav-column nav-full-width">
+                                            <ul>
+                                                <li>
+                                                    <img src="https://images.ctfassets.net/bx9krvy0u3sx/4AwxnBh39h8mwg91f3irmA/c33d98ae2cabce12335376859d8375a5/customer_support_icon.svg"
+                                                        style="display:inline">
+                                                    <a href="/support/customerservices" title="Customer Services">Customer Services</a>
+                                                </li>
+                                                <li>
+                                                    <img src="https://images.ctfassets.net/bx9krvy0u3sx/4fd63eKN6QE78XG7RRMJP7/96e5cd5295b948ce56a21ecabbee3062/knowledge_base_icon.svg"
+                                                        style="display:inline">
+                                                    <a href="https://kb.cammatics.com" title="Knowledge Base">Knowledge Base</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <li class="mobile-none try-nav">
+                                <a id="menu-main" href="/pricing" title="Check our prices">Check our prices</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <main role="main">
+            <div id="eld">
+                <div class="banner dim-light" id="eld-banner" style="background-image: url(images/eld_hero.jpg);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col sm-12 center-xs start-sm">
+                                <h2>
+                                    ELD Compliance Solution
+                                </h2>
+                                <p>
+                                    Prevent hours of service violations
+                                </p>
+                                <a class="btn primary-btn" href="/pricing" id="eld-main-button-1" title="Check our prices">
+                                    Check our prices
+                                </a>
+                                <br class="visible-s">
+                                <a class="btn primary-btn hollow hollow-fifty-black" href="https://youtu.be/4ebHBT3ufeI" target="_blank" title="Watch video">
+                                    Watch video
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="certification-banner">
+                    <div class="container">
+                        <div class="row center-xs">
+                            <div class="col xs-12">
+                                <img class="logo" data-lazy="https://s3-us-west-2.amazonaws.com/corpweb-static/img/logos/dot.png">
+                                <span class="logo-text">
+                                    FMCSA
+                                </span>
+                                <span class="banner-text">
+                                    Certified Electronic Logging Device
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="products-panel">
+                    <div class="features-panel hardware-right" style="background:#fff">
+                        <div class="container">
+                            <div class="row center-xs space-top-2">
+                                <div class="introsets col md-4 sm-6 xs-12">
+                                    <img class="introicon-no-width" data-lazy="images/connect-your-operations.svg">
+                                    <h5 class="dark-blue-text" style="padding-left:0px; padding-right:0px;">
+                                        Connect your operations
+                                    </h5>
+                                    <p>
+                                        Get HOS and records of duty status, GPS tracking, WiFi hotspots, sensor data, DVIRs, document capture, and more, all on one
+                                        platform.
+                                    </p>
+                                </div>
+                                <div class="introsets col md-4 sm-6 xs-12">
+                                    <img class="introicon-no-width" data-lazy="images/lower-compliance-costs.svg">
+                                    <h5 class="dark-blue-text" style="padding-left:0px; padding-right:0px;">
+                                        Maintain Compliance Everywhere
+                                    </h5>
+                                    <p>
+                                        With built-in WiFi hotspots, cammatics eliminates the need for cellular data plans and keeps your fleet compliant, even in
+                                        areas without cellular reception.
+                                    </p>
+                                </div>
+                                <div class="introsets col md-4 sm-6 xs-12">
+                                    <img class="introicon-no-width" data-lazy="images/accelerate-roi.svg">
+                                    <h5 class="dark-blue-text" style="padding-left:0px; padding-right:0px;">
+                                        Lower ELD Compliance Costs
+                                    </h5>
+                                    <p>
+                                        cammatics’s Driver App brings FMCSA-approved ELD capability to any Android or iOS device, avoiding the cost of proprietary
+                                        e-logging hardware.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="align-mid-button space-bottom" id="eld-benefits-2" style="margin: 21px auto 0;">
+                                <a class="btn primary-btn teal" href="/getting-started" id="eld-benefits-button-2" title="Get Started with cammatics">
+                                    Get Started with cammatics
+                                </a>
+                            </div>
+                            <div class="center-text space-bottom-4">
+                                <a class="teal-underline uppercase dark-blue-text learn-eld" href="/fleet/eld-compliance/what-is-the-eld-mandate" target="_blank">
+                                    Learn more about the ELD mandate
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--products-panel-->
+
+                <section id="benefits-features">
+                    <div class="container center-text space-top-4">
+                        <h5 class="bold-upper-header-small">
+                            A complete ELD Solution
+                        </h5>
+                        <h2>
+                            For Your Entire Organization
+                        </h2>
+                        <!-- <ul class="nav-pill-tabs eld-nav-pill-tabs large" style="z-index: 100;">
+                            <li class="active" data-section="#compliance-managers" tabindex="0">
+                                Compliance
+                            </li>
+                            <li data-section="#drivers" id="driver-tab" tabindex="0">
+                                Drivers
+                            </li>
+                        </ul> -->
+                    </div>
+                    <!--Compliance Managers-->
+                    <section class="bf-section" id="compliance-managers" style="padding-top:100px;border-bottom:0px;">
+                        <div class="icon-container">
+                            <img data-lazy="images/compliance-icon.svg">
+                        </div>
+                        <h2 style="margin-bottom:20px;">
+                            Compliance Managers
+                        </h2>
+                        <p class="center-text margin-top-0">
+                            Streamline hours of service (HOS) management and accurately record driver records of duty status
+                        </p>
+                        <!--Features-->
+                        <div class="feature-set">
+                            <div class="features-panel tablet hardware-left section-top-panel">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col md-4 lg-4">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Mitigate risk with improved HOS visibility
+                                                </h4>
+                                                <p>
+                                                    With real-time visibility into every driver’s logs, dispatchers can easily take drivers’ status into account when planning
+                                                    routes to avoid Hours of Service violations.
+                                                </p>
+                                                <div id="eld-visibility-8">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/blog/a-guide-to-understanding-and-improving-your-csa-score" id="eld-visibility-button-8">
+                                                        How does HOS compliance affect CSA scores?
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hardware">
+                                    <div class="macbook section-top-macbook">
+                                        <div class="screen-content lightbox">
+                                            <img data-lazy="images/frame_2406__1_.jpg">
+                                            <figure class="lightbox-content">
+                                                <img data-lazy="images/frame_2406__1_.jpg">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features-panel tablet hardware-left" style="background:#fff;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col md-4 lg-4">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Simplify HOS management
+                                                </h4>
+                                                <p>
+                                                    With our easy-to-use dashboard, you can review driver logs and suggest log edits to ensure your e-logs are up to date.
+
+
+                                                </p>
+                                                <div id="eld-review-9">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/fleet/eld-compliance/hours-of-service" id="eld-review-button-9">
+                                                        Learn more about Hours of Service
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hardware">
+                                    <div class="macbook">
+                                        <div class="screen-content video">
+                                            <video height="566" playsinline autoplay muted loop preload="auto" width="725">
+                                                <source src="images/Edit_log_desktop__1_.mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features-panel tablet hardware-left" style="background:#fff;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col md-4 lg-4">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Streamline management of unassigned hours
+                                                </h4>
+                                                <p>
+                                                    Our Unassigned HOS report makes it easy to maintain clean driver logbooks. Track unassigned driving time and assign hours
+                                                    to the correct driver with a single click.
+
+
+                                                </p>
+                                                <div id="eld-review-9">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/learn-more" id="eld-review-button-9">
+                                                        Learn more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hardware">
+                                    <div class="macbook">
+                                        <div class="screen-content video">
+                                            <video height="566" playsinline autoplay muted loop preload="auto" width="725">
+                                                <source src="images/unassigned-hos.mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features-panel tablet hardware-left" style="background:#fff;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col md-4 lg-4">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Stay compliant with easy-to-manage rulesets
+                                                </h4>
+                                                <p>
+                                                    Rulesets automatically switch based on your driver’s location for seamless ELD compliance. cammatics covers United States Interstate,
+                                                    United States Intrastate, and Canada rulesets.
+                                                </p>
+                                                <div id="eld-review-9">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/learn-more" id="eld-review-button-9">
+                                                        Learn more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hardware">
+                                    <div class="macbook">
+                                        <div class="screen-content video">
+                                            <video height="566" playsinline autoplay muted loop preload="auto" width="725">
+                                                <source src="images/Rulesets.mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--feature-set-->
+                    </section>
+                    <!--compliance-managers-->
+                    <section class="split xs-1 md-2" id="customer-spotlight">
+                        <div class="split-item dohrn-photo" style="background-image:url('images/dohrn-customer-spotlight-truck.jpg'); background-size: cover;">
+                        </div>
+                        <div class="split-item">
+                            <h5 class="space-bottom-1 bold-upper-header-small" style="color: #ff5740;">
+                                Customer Spotlight
+                            </h5>
+                            <h2 class="white-text" style="text-align: left;">
+                                ELD Compliance for Fleets of All Sizes
+                            </h2>
+                            <div class="customer-spotlight-quote">
+                                <p>
+                                    “We’re compliant with the ELD Mandate, but more importantly our drivers now understand what it means to drive safely, to
+                                    get the right sleep and the right breaks. That’s true safety, and it gets them home to
+                                    their families without incident.”
+                                </p>
+                                <h5 class="attribution">
+                                    <b>
+                                        Michael Leathers
+                                    </b>
+                                    , VP of Administration, Dohrn Transfer Company
+                                </h5>
+                                <a class="link-arrow" href="/customers/dohrn-transfer-company">
+                                    Read the case study
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <!--Drivers-->
+                    <section class="bf-section" id="drivers" style="padding-top:100px;">
+                        <div class="icon-container">
+                            <img data-lazy="images/driver-icon.svg">
+                        </div>
+                        <h2 style="margin-bottom:20px;">
+                            Drivers
+                        </h2>
+                        <p class="center-text margin-top-0">
+                            Simplify HOS logging
+                        </p>
+                        <!--Benefits-->
+                        <!--Features-->
+                        <div class="feature-set">
+                            <div class="features-panel phone phone-zoom-center hardware-right">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col md-4 lg-4 margin-top-0">
+                                            <div class="panel-wrap" id="eld-modal-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Streamline log tracking and certification
+                                                </h4>
+                                                <p>
+                                                    Commercial motor vehicle drivers can easily edit, review, and certify Hours of Service logs right from the cammatics Driver
+                                                    App. Carrier edits are instantly sent to drivers for review and certification
+                                                    to keep your HOS logs compliant.
+                                                </p>
+                                                <div class="modal">
+                                                    <p id="eld-modal-text">
+                                                        Multi-language support
+                                                    </p>
+                                                    <!-- modal -->
+                                                    <div class="modal-container">
+                                                        <div class="modal-window">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <div class="modal-header-copy">
+                                                                        <h4>
+                                                                            cammatics supports the following languages
+                                                                        </h4>
+                                                                        <p>
+
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                English (United Kingdom)
+                                                                <br> English
+                                                                <br> Español
+                                                                <br> Español (Latinoamérica)
+                                                                <br> Français
+                                                                <br>
+                                                                <p id="eld-modal-text">
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="eld-logs-13">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/learn-more" id="eld-logs-13">
+                                                        Learn more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hardware col md-6 lg-6">
+                                            <div class="iphone-x white">
+                                                <div class="screen-content video">
+                                                    <video height="381" playsinline autoplay muted loop preload="auto" width="214">
+                                                        <source src="images/Change-Log-Driver2.mp4">
+                                                    </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features-panel phone phone-zoom-center hardware-right">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col md-4 lg-4 margin-top-0">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Simplify driver training
+                                                </h4>
+                                                <p>
+                                                    Drivers can set their duty status with one click, and driving statuses automatically update based on vehicle data, making
+                                                    it easy to keep accurate e-logs.
+                                                </p>
+                                                <div id="eld-logs-13">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/learn-more" id="eld-logs-13">
+                                                        Learn more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hardware col md-6 lg-6">
+                                            <div class="iphone-x white">
+                                                <div class="screen-content video">
+                                                    <video height="381" playsinline autoplay muted loop preload="auto" width="214">
+                                                        <source src="images/driver-status.mp4">
+                                                    </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="illustration features-panel photo photo-right">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col xs-8 sm-8 md-4 lg-4">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Help drivers stay compliant
+                                                </h4>
+                                                <p>
+                                                    Commercial drivers receive real-time alerts when nearing violation to help make sure they stay compliant during their shift.
+                                                    Simple HOS countdown clocks give drivers an easy way to track their shift
+                                                    times to prevent violations.
+                                                </p>
+                                                <div id="eld-alerts-14">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/learn-more" id="eld-logs-13">
+                                                        Learn more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="photo-image col xs-12 sm-8 md-6 lg-6">
+                                            <img data-lazy="images/driver-3-notification.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features-panel phone phone-zoom-center hardware-right">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col md-4 lg-4 margin-top-0">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Approach DOT inspections with confidence
+                                                </h4>
+                                                <p>
+                                                    With up to date logs and built-in log transfers, drivers can feel confident during DOT inspections.
+
+
+                                                </p>
+                                                <div id="eld-logs-13">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/learn-more" id="eld-logs-13">
+                                                        Learn more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hardware col md-6 lg-6">
+                                            <div class="iphone-x white">
+                                                <div class="screen-content video">
+                                                    <video height="381" playsinline autoplay muted loop preload="auto" width="214">
+                                                        <source src="images/DOT-Inspection.mp4">
+                                                    </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="illustration features-panel photo photo-right" style="background:#fff;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="panel-copy col xs-8 sm-8 md-4 lg-4">
+                                            <div class="panel-wrap">
+                                                <h4 class="mitigate-vertical-center">
+                                                    Easy installation for immediate ROI
+                                                </h4>
+                                                <p>
+                                                    The Vehicle Gateway plugs right into your vehicle’s diagnostic port, and takes less than 10 minutes to install.
+
+
+                                                </p>
+                                                <div id="eld-alerts-14">
+                                                    <br>
+                                                    <a class="link-arrow all-teal" href="/fleet/eld-compliance/eld-for-trucks" id="eld-logs-13">
+                                                        Learn more about ELDs for trucks
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="photo-image col xs-12 sm-8 md-6 lg-6">
+                                            <img data-lazy="images/fleet-manager-4-vg34.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--drivers-->
+                    <section>
+                        <div class="text-banner">
+                            <a class="teal-text" href="/pdf/docs/eld-solution-guide.pdf" style="text-decoration: none;" target="_blank">
+                                Want to learn more? Read our ELD Compliance guide
+                            </a>
+                        </div>
+                    </section>
+                    <!--benefits-features-->
+                    <div id="products-hardware" style="display:none;">
+                    </div>
+                    <div class="banner dim-light" style="background-image: url('images/free-trial-signup.jpg?');">
+                        <div class="container bottom-button">
+                            <div class="row">
+                                <div class="col sm-12 center-text">
+                                    <h2 class="white-text">
+                                        Get Started with cammatics
+                                    </h2>
+                                    <a class="btn primary-btn" href="/pricing" id="eld-end-button-20" title="Check our prices">
+                                        Check our prices
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+    </div>
+    <script src="js/jquery-3.3.1.min.js "></script>
+    <script src="js/bundle.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <title>cammatics | ROI Calculator for Small Fleets</title>
+    <!-- Jquery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- End Jquery -->
+</head>
+
+<body class="ai-dash-cam camera-overview">
+    <!-- Language Selector Popup -->
+    <div class="site-wrapper">
+        <div id="international-nav" class="main-header" style="display: inline-block;">
+            <div id="header-cont-2">
+                <div id="intl-text">Choose another country or region to see content specific to your location</div>
+            </div>
+        </div>
+        <div id="get-started-header" class="main-header">
+            <div id="header-cont">
+                <a href="/">
+                    logo
+                </a>
+                <a id="intl-ctn" href="/pricing" class="button primary-btn" title="Check our prices">CHECK OUR PRICES</a>
+            </div>
+        </div>
+        <header id="site-header">
+            <div class="site-main">
+                <div class="header-top">
+                    <ul class="header-link">
+                        <li class="mobile-link">
+                            <a href="tel:4159852400" title="Call us">905-903-9120</a>
+                        </li>
+                        <li class="mobile-link visible-mobile-nav" style="width:100%;"></li>
+                        <li class="">
+                            <a href="/contact" title="Contact Sales">Contact Sales</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-main">
+                    <a href="home.html" title="cammatics" class="logo">
+                        <img src="images/logo.png">
+                    </a>
+                    <nav class="main-navigation nav-custom">
+                        <div class="menu-icon">
+                            <div class="menu-box">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <ul class="primary-nav">
+                            <li class="mega-big has-sub-menu">
+                                <a href="#" title="Our Goal">Our Goal</a>
+                                <b class="subArrow"></b>
+                                <div class="megamenu medium-menu">
+                                    <div class="subArrowDesktop"></div>
+                                    <div class="megamenu-left">
+                                        <div class="nav-column-wrap">
+                                            <div class="nav-column">
+                                                <p>The leader in Industrial IoT.
+                                                    <br>
+                                                    <br> Increase the safety, efficiency, and sustainability of the operations
+                                                    that power our economy.</p>
+                                            </div>
+                                            <div class="nav-column">
+                                                <h3>
+                                                    <a href="/safety" title="Safety"> Risk Management</a>
+                                                </h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        Prevent accidents and save lives
+                                                    </li>
+                                                </ul>
+                                                <h3>
+                                                    <a href="/efficiency" title="Efficiency"> 24/7 Surveillance </a>
+                                                </h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        Increase productivity and decrease costs
+                                                    </li>
+                                                </ul>
+                                                <h3>
+                                                    <a href="/sustainability" title="Sustainability">Reduce Fuel cost </a>
+                                                </h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        Reduce environmental impact
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="mega-big has-sub-menu">
+                                    <a href="#" title="Fleet">Fleet</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="megamenu-left">
+                                            <div class="nav-column-wrap">
+                                                <div class="nav-column">
+                                                    <h3>Telematics</h3>
+                                                    <ul class="space-bottom">
+                                                        <li>
+                                                            <a href="/fleet" title="Fleet Overview"> Fleet Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/gps-fleet-tracking" title="GPS Fleet Tracking"> GPS Fleet Tracking</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/fuel-and-maintenance" title="Fuel &amp; Maintenance"> Fuel &amp; Maintenance</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/trailer-tracking" title="Trailer Tracking"> Trailer Tracking</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/reefer-monitoring" title="Fleet Maintenance"> Reefer Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/equipment-tracking" title="Equipment Tracking"> Equipment Tracking</a>
+                                                        </li>
+                                                    </ul>
+                                                    <h3>
+                                                        Safety
+                                                    </h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/fleet/dash-cam" title="AI Dash Cams"> AI Dash Cams</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/safety/driver" title="Driver Safety &amp; Coaching"> Driver Safety &amp; Coaching</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Connected Driver</h3>
+                                                    <ul class="space-bottom">
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/driver-workflow" title="Driver Workflow"> Driver Workflow</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/document-management" title="Documents &amp; Messaging"> Documents &amp; Messaging</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/routing" title="Routing &amp; Dispatch"> Routing &amp; Dispatch</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/eld-compliance" title="Compliance &amp; ELD"> Compliance &amp; ELD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/connected-driver/dvir" title="DVIR"> DVIR</a>
+                                                        </li>
+                                                    </ul>
+                                                    <h3>Partners</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/marketplace" title="Marketplace"> Marketplace</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/partner-programs" title="Partner Programs"> Partner Programs</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Industry Solutions</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/fleet/logistics" title="Transportation &amp; Logistics"> Transportation &amp; Logistics</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/food-and-beverage" title="Food &amp; Beverage"> Food &amp; Beverage</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/construction" title="Construction"> Construction</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/higher-education" title="Higher Education"> Higher Education</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/state-local-government" title="State &amp; Local Government"> State &amp; Local Government</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/utilities" title="Utilities"> Utilities</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/passenger-transit" title="Passenger Transit"> Passenger Transit</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/fleet/field-services" title="Field Service Fleets"> Field Service Fleets</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="specs-wrap">
+                                                <div class="view-more-specs">
+                                                    <a href="/products/models" title="View hardware models and specs">View hardware models and specs </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megamenu-right">
+                                            <div class="nav-column">
+                                                <h3>Resources</h3>
+                                                <ul class="space-bottom">
+                                                    <li>
+                                                        <a href="/roi-calculator" title="ROI Calculator">ROI Calculator</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/roi-calculator-express" title="SMB Savings Calculator">SMB Savings Calculator</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://kb.cammatics.com" title="Knowledge Base">Knowledge Base</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/videos/" title="Video Library">Video Library</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/fleet/product-tours" title="Product Tours">Product Tours</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/security" title="Security">Security</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/docs" title="Docs">Docs</a>
+                                                    </li>
+                                                </ul>
+                                                <h3>Developers</h3>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/developers/" title="Overview">Overview</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/developers/changelog" title="API Changelog">API Changelog</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/api" title="Developer APIs">Developer APIs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/marketplace/" title="App Marketplace">App Marketplace</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <!-- <li class="mega-big has-sub-menu">
+                                    <a href="#" title="Factory">Factory</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="megamenu-left">
+                                            <div class="nav-column-wrap">
+                                                <div class="nav-column">
+                                                    <h3>Product</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/process-monitoring" title="Process Monitoring">Process Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/condition-monitoring" title="Condition Monitoring">Condition Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision" title="Quality Inspection">Quality Inspection</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Industry Solutions</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/consumer-goods" title="Consumer Goods">Consumer Goods</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/pharmaceuticals" title="Pharmaceuticals">Pharmaceuticals</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/automotive" title="Automotive">Automotive</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/machine-vision/food-beverage" title="Food &amp; Beverage">Food &amp; Beverage</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="specs-wrap">
+                                                <div class="view-more-specs">
+                                                    <a href="/products/industrial-models" title="View industrial hardware models and specs">View industrial hardware models and specs </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megamenu-right">
+                                            <div class="nav-column">
+                                                <h3>Resources</h3>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/api" title="Developer APIs">Developer APIs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/security" title="Security">Security</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/docs" title="Docs">Docs</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <!-- <li class="mega-big has-sub-menu">
+                                    <a href="#" title="Infrastructure">Infrastructure</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="megamenu-left">
+                                            <div class="nav-column-wrap">
+                                                <div class="nav-column">
+                                                    <h3>Product</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/remote-monitoring" title="Remote Monitoring">Remote Monitoring</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/condition-monitoring" title="Condition Monitoring">Condition Monitoring</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-column">
+                                                    <h3>Industry Solutions</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/industrial/oil-gas" title="Oil &amp; Gas">Oil &amp; Gas</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/water" title="Water">Water</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="specs-wrap">
+                                                <div class="view-more-specs">
+                                                    <a href="/products/industrial-models" title="View industrial hardware models and specs">View industrial hardware models and specs
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megamenu-right">
+                                            <div class="nav-column">
+                                                <h3>Resources</h3>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/api" title="Developer APIs">Developer APIs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/security" title="Security">Security</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/docs" title="Docs">Docs</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <li class="mega-small has-sub-menu">
+                                <a href="/customers/" title="Customers">Browse Solutions</a>
+                                <b class="subArrow"></b>
+                                <div class="megamenu">
+                                    <div class="subArrowDesktop"></div>
+                                    <div class="nav-column nav-full-width">
+                                        <ul>
+                                            <li>
+                                                <a href="/eld-hos" title="ELD/HOS">ELD/HOS</a>
+                                            </li>
+                                            <li>
+                                                <a href="/dash-cam" title="Dash Cam">Dash Cam</a>
+                                            </li>
+                                            <li>
+                                                <a href="/" title="Diagnostic">Diagnostic</a>
+                                            </li>
+                                            <li>
+                                                <a href="/dvir" title="DVIR ">DVIR </a>
+                                            </li>
+                                            <li>
+                                                <a href="/drivers-training" title="Field Services">Drivers Training</a>
+                                            </li>
+                                            <li>
+                                                <a href="/oil-gas" title="Field Services">Oil and Gas</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="mega-small has-sub-menu">
+                                    <a class="active" href="#" title="About Us">About Us</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="nav-column nav-full-width">
+                                            <ul>
+                                                <li>
+                                                    <a href="/about" title="About">About</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/careers" title="Careers">Careers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/diversity" title="Diversity">Diversity</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/contact" title="Contact">Contact</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/news" title="News">News</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/blog/" title="Blog">Blog</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/events/safety" title="Events">Events</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <!-- <li class="support-mobile mega-small has-sub-menu">
+                                    <a href="https://kb.cammatics.com" title="Support">Support</a>
+                                    <b class="subArrow"></b>
+                                    <div class="megamenu">
+                                        <div class="subArrowDesktop"></div>
+                                        <div class="nav-column nav-full-width">
+                                            <ul>
+                                                <li>
+                                                    <img src="https://images.ctfassets.net/bx9krvy0u3sx/4AwxnBh39h8mwg91f3irmA/c33d98ae2cabce12335376859d8375a5/customer_support_icon.svg"
+                                                        style="display:inline">
+                                                    <a href="/support/customerservices" title="Customer Services">Customer Services</a>
+                                                </li>
+                                                <li>
+                                                    <img src="https://images.ctfassets.net/bx9krvy0u3sx/4fd63eKN6QE78XG7RRMJP7/96e5cd5295b948ce56a21ecabbee3062/knowledge_base_icon.svg"
+                                                        style="display:inline">
+                                                    <a href="https://kb.cammatics.com" title="Knowledge Base">Knowledge Base</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            <li class="mobile-none try-nav">
+                                <a id="menu-main" href="/pricing" title="Check our prices">Check our prices</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main role="main">
+            <div class="banner dim-light dash-cam-banner">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col sm-12 center-xs">
+                            <h1 style="padding: 0px; margin: 0px; color: white;">cammatics for Oil &amp; Gas</h1>
+                            <p style="color: white; font-size: 1.2em; padding-top: 0px; padding-bottom: 20px;margin: 0;">
+                            </p>
+                            <a id="dash-main-button-1" class="space-top space-right btn primary-btn " href="/industrial/pricing/get-quote">Check our prices</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-video">
+                    <video id="dash-cam-banner" preload="auto" autoplay="autoplay" loop="loop" width="1521" height="714" muted="muted" playsinline
+                        webkit-playsinline poster="images/Oil___Gas_Hero.mov">
+                        <source src="images/Oil___Gas_Hero.mov">
+                    </video>
+                    <script type="text/javascript">
+                        var vid = document.getElementById('dash-cam-banner');
+
+                        var vidStartTime = 0;
+                        var durationTime = 0;
+
+                        vid.addEventListener('loadedmetadata', function () {
+                            vidStartTime = 0;
+                            durationTime = 21;
+                            this.currentTime = vidStartTime;
+                        }, false);
+                    </script>
+                </div>
+            </div>
+            <div id="">
+                <div class="container center-text space-top-3">
+                    <div class="row center-xs ">
+                        <div class="col sm-12 md-10 lg-10">
+                            <h5 class="teal-text">Benefits &amp; Features</h5>
+                            <h1>Real-time visibility &amp; control, from production to pipeline</h1>
+                            <p class="sub-title-larger"></p>
+                        </div>
+                    </div>
+                </div>
+                <section id="products-panel">
+                    <div class="features-panel hardware-right" style="background:#fff">
+                        <div class="container">
+                            <div class="row center-xs space-top-2">
+                                <div class="introsets col md-4 sm-6 xs-12">
+                                    <img class="introicon-no-width" data-lazy="images/connect-everything-icon.svg">
+                                    <h5 class="dark-blue-text" style="padding-left:0px; padding-right:0px;">
+                                        Connect Every Asset
+                                    </h5>
+                                    <p>
+                                        From flow computers to sensors and VSDs, cammatics is an open platform designed to give you a single, unified view into all
+                                        of your critical oilfield data.
+                                    </p>
+                                </div>
+                                <div class="introsets col md-4 sm-6 xs-12">
+                                    <img class="introicon-no-width" data-lazy="images/connect-your-operations.svg">
+                                    <h5 class="dark-blue-text" style="padding-left:0px; padding-right:0px;">
+                                        Build custom dashboards
+                                    </h5>
+                                    <p>
+                                        Integrate and visualize real-time and historical data in easy to build charts and reports. Easily create multiple layouts
+                                        and share them with an unlimited number of users.
+                                    </p>
+                                </div>
+                                <div class="introsets col md-4 sm-6 xs-12">
+                                    <img class="introicon-no-width" data-lazy="images/operations_icons2.svg">
+                                    <h5 class="dark-blue-text" style="padding-left:0px; padding-right:0px;">
+                                        Maximize production efficiency
+                                    </h5>
+                                    <p>
+                                        Always-on KPI reporting can be used to identify performance irregularities between sites while remote control allows you
+                                        to adjust asset setpoints instantly.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="align-mid-button space-bottom" id="eld-benefits-2" style="margin: 21px auto 0;">
+                                <a class="btn primary-btn teal" href="/industrial/pricing/get-quote" id="eld-benefits-button-2" title="Get real-time oilfield visibility today">
+                                    Get real-time oilfield visibility today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="how-it-works eld-how-it-works space-bottom-5 space-top-2" id="solution-diagram">
+                    <div class="container center-text space-top-2">
+                        <h5 class="bold-upper-header-small">
+
+                        </h5>
+                        <h2>
+                            How It Works
+                        </h2>
+                        <p class="light-text">
+                            Sensors, controllers, and other assets transmit live data via Gateway.
+                            <br> Operators view real-time status data and managers track production KPIs and trends in the Dashboard.
+                        </p>
+                    </div>
+                    <div class="row center-xs">
+                        <div class="sm-12 md-7 col space-top-3">
+                            <!--diagram-->
+                            <img alt="Vehicles transmit live data via gateway." data-lazy="images/solution-diagram-narrow_oilandgas_072519outlines.svg"
+                                style="padding:0px 10px; padding-bottom: 80px">
+                        </div>
+                    </div>
+                </section>
+                <section class=" feature-rotator-ai">
+
+                    <div class="row center-xs start-lg">
+                        <div class="col xs-9 xs-offset-0 lg-3 lg-offset-2 ai-rotator-content">
+                            <h2 class="white-text">An Open Platform to Connect Every Asset</h2>
+                            <p class="white-text">
+                                cammatics’s industrial gateway easily integrates with existing PLCs and SCADA systems via common industrial protocols while
+                                built-in I/Os provide a channel for direct monitoring and control.
+                            </p>
+                        </div>
+                        <div class="col xs-12 sm-9 lg-6 lg-offset-1 owl-carousel lg-space-top-0 space-top-2">
+                            <div class="ai-rotator-image">
+
+                                <img src="images/Wellhead.jpg" />
+                                <div class="rotate-numbers">
+                                    <span>
+                                        01 / 04 </span>
+                                    <p style="text-transform: none;font-size: 16px;line-height: 20px;letter-spacing:initial;">
+                                        Monitor tubing &amp; casing pressures to optimize production
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="ai-rotator-image">
+
+                                <img src="images/Compressor.jpg" />
+                                <div class="rotate-numbers">
+                                    <span>
+                                        01 / 04 </span>
+                                    <p style="text-transform: none;font-size: 16px;line-height: 20px;letter-spacing:initial;">
+                                        Prevent unplanned downtime with vibration monitoring
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="ai-rotator-image">
+
+                                <img src="images/Tanks.jpg" />
+                                <div class="rotate-numbers">
+                                    <span>
+                                        01 / 04 </span>
+                                    <p style="text-transform: none;font-size: 16px;line-height: 20px;letter-spacing:initial;">
+                                        Avoid leaks &amp; spills with tank level monitoring &amp; remote flow meter control
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="ai-rotator-image">
+
+                                <img src="images/Pipeline.jpg" />
+                                <div class="rotate-numbers">
+                                    <span>
+                                        01 / 04 </span>
+                                    <p style="text-transform: none;font-size: 16px;line-height: 20px;letter-spacing:initial;">
+                                        Monitor pipeline pressure and adjust control valves to ensure adequate flow
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Features-->
+                <section class="container">
+                    <div class="row responsive-vertical-margin middle-md">
+                        <div class="col sm-12 md-4">
+                            <h3>
+                                A Unified View of Your Entire Oilfield
+                            </h3>
+                            <p>
+                                cammatics provides a single source of truth for your data that’s comprehensive, always up-to-date, and readily available to
+                                anyone in your organization through the web-based dashboard.
+                            </p>
+                            <div id="construction-job-3">
+                                <br>
+                                <a class="link-arrow all-teal" href="/industrial/pricing/get-quote" id="construction-job-button-3">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col sm-12 md-7 md-offset-1 first-xs last-md">
+                            <img data-lazy="images/Dashbaord-Map.png">
+                        </div>
+                    </div>
+                    <div class="row responsive-vertical-margin middle-md" id="eliminate-yard-hunts">
+                        <div class="col sm-12 md-7">
+                            <img data-lazy="images/Analytics-2.gif">
+                        </div>
+                        <div class="col sm-12 md-4 md-offset-1">
+                            <h3>
+                                View Production Analytics On-Demand
+                            </h3>
+                            <p>
+                                Use formulas to automatically calculate production KPIs in analytics dashboards and make smarter decisions around capacity
+                                planning, demand, and system usage.
+                            </p>
+                            <div id="construction-hunts-4">
+                                <br />
+                                <a class="link-arrow all-teal" href="/industrial/pricing/get-quote" id="construction-hunts-button-4">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="customer-quote responsive-vertical-padding dark-blue-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col sm-12 md-3 center-text space-top">
+                                <img class="space-bottom-2" data-lazy="images/BHES-Logo-Round.png" width="180">
+                            </div>
+                            <div class="col sm-12 md-9">
+                                <h3 class="white-text">
+                                    “cammatics has become a seamless data broker for disparate systems in the oilfield. Any system that’s out there, we can integrate
+                                    with it, transmit that data, and provide wireless remote monitoring of assets that we
+                                    would otherwise not be able to do.”
+                                </h3>
+                                <h5 class="space-top-1 white-text">
+                                    Buffalo Head
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container" id="reduce-costs-promote-safety">
+                    <div class="row responsive-vertical-margin middle-md">
+                        <div class="col sm-12 md-4">
+                            <h3>
+                                Improve Pumper Efficiency
+                            </h3>
+                            <p>
+                                Pumpers and operators need the right amount of information in real-time to make quick decisions. cammatics’s operational dashboards
+                                are optimized for viewing critical data quickly on any device with a web browser.
+                            </p>
+                            <div id="construction-costs-5">
+                                <br>
+                                <a class="link-arrow all-teal" href="/industrial/pricing/get-quote" id="construction-costs-button-5">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col sm-12 md-7 md-offset-1 first-xs last-md center-text">
+                            <img data-lazy="images/Mobile-Render.png">
+                        </div>
+                    </div>
+                    <div class="row responsive-vertical-margin middle-md">
+                        <div class="col sm-12 md-7">
+                            <img data-lazy="images/Asset_ReportsAsset_5.svg.jpg">
+                        </div>
+                        <div class="col sm-12 md-4 md-offset-1">
+                            <h3>
+                                Optimize Your Production Process
+                            </h3>
+                            <p>
+                                With the ability to directly compare flow, pressure and other process data between sites, you can quickly identify and remediate
+                                the causes of suboptimal performance.
+                            </p>
+                            <div id="construction-downtime-6">
+                                <br>
+                                <a class="link-arrow all-teal" href="/industrial/pricing/get-quote" id="construction-downtime-button-6">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="customer-quote responsive-vertical-padding dark-blue-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col sm-12 md-3 center-text space-top">
+                                <!-- <img class="space-bottom-2" data-lazy="images/filler.png" width="180"> -->
+                            </div>
+                            <div class="col sm-12 md-9">
+                                <h3 class="white-text">
+                                    “We’re excited that we’ll finally be able to easily see and customize our data for decision making. Before cammatics, it could
+                                    take weeks to make changes to our production dashboards and reports.”
+                                </h3>
+                                <h5 class="space-top-1 white-text">
+
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="row responsive-vertical-margin middle-md">
+                        <div class="col sm-12 md-3 md-offset-1">
+                            <h3>
+                                Keep Your Product Flowing
+                            </h3>
+                            <p>
+                                Ensure continuous operation of your equipment and avoid unplanned downtime with easy-to-configure maintenance alerts when
+                                machines start to run outside of normal operating conditions.
+                            </p>
+                            <div id="construction-assets-7">
+                                <br>
+                                <a class="link-arrow all-teal" href="/industrial/pricing/get-quote" id="construction-assets-button-7">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col sm-12 md-6 md-offset-1 first-xs last-md">
+                            <img data-lazy="images/condition-monitoring-feature-notification-crop.png">
+                        </div>
+                    </div>
+                    <div class="row responsive-vertical-margin middle-md">
+                        <div class="col sm-12 md-7">
+                            <img data-lazy="images/dev_header_v3.gif">
+                        </div>
+                        <div class="col sm-12 md-4 md-offset-1">
+                            <h3>
+                                Streamline Reporting
+                            </h3>
+                            <p>
+                                From production accounting systems to regulatory compliance reports, an Open API and CSV export make it easy to deliver operations
+                                data into your existing systems without all of the manual work.
+                            </p>
+                            <div id="construction-costs-8">
+                                <br>
+                                <a class="link-arrow all-teal" href="/industrial/pricing/get-quote" id="construction-costs-button-8">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="feature-product-sections-general" id="oil-gas-products">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col sm-12">
+                                <h3 class="space-top-3">
+                                    Featured Products
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row space-top-2">
+                            <div class="col xs-6 md-3 featured-product">
+                                <a href="/products/models/ig20">
+                                    <img data-lazy="images/IG21-front-web.jpg">
+                                    <h4>
+                                        IG20
+                                    </h4>
+                                    <p>
+                                        Industrial Control System
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col xs-6 md-3 featured-product">
+                                <a href="/products/models/ig21">
+                                    <img data-lazy="images/IG21-front-web.jpg">
+                                    <h4>
+                                        IG21
+                                    </h4>
+                                    <p>
+                                        Industrial Control System
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col xs-6 md-3 featured-product">
+                                <a href="/products/models/ig61">
+                                    <img data-lazy="images/IG61-Industrial-Controller-Front.jpg">
+                                    <h4>
+                                        IG61
+                                    </h4>
+                                    <p>
+                                        Industrial Control System
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col xs-6 md-3 featured-product">
+                                <a href="/products/models/hm11">
+                                    <img data-lazy="images/hm11-side-detail.jpg">
+                                    <h4>
+                                        HM11
+                                    </h4>
+                                    <p>
+                                        Machine Health Monitor
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row space-top-3">
+                            <div class="col sm-12 center-text">
+                                <a class="link-arrow link-red" href="/products/models">
+                                    Explore all models
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="banner dim-light" style="background-image: url(images/Footer-Small.jpg);">
+                    <div class="container bottom-button">
+                        <div class="row">
+                            <div class="col sm-12 center-text">
+                                <h2 class="white-text">
+                                    Get real-time oilfield visibility today
+                                </h2>
+                                <a class="btn primary-btn" href="/industrial/pricing/get-quote" id="construction-end-button-9" title="Check our prices">
+                                    Check our prices
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".owl-carousel").owlCarousel({
+                        items: 1,
+                        nav: true,
+                        dots: false,
+                        loop: true,
+                        autoplay: true,
+                        autoplayTimeout: 3000
+                    });
+
+                    $('.owl-next:parent').each(function () {
+                        $(this).insertBefore($(this).prev('.owl-prev'));
+                    });
+
+                    //Modal window functionality
+                    $(document).on('click', '.play-video', function () {
+                        var modalId = $(this).attr('data-id');
+
+                        $('#' + modalId + '.modal').addClass('active');
+                        $('body').toggleClass('modal-open');
+
+                        var videoURL = $('#' + modalId).find('iframe').prop('src');
+                        videoURL += "&autoplay=1";
+                        $('#' + modalId).find('iframe').prop('src', videoURL);
+                    });
+
+                    $('.modal-container').click(function (e) {
+                        var modalId = $(this).parent().attr('id');
+                        var videoURL = $('#' + modalId).find('iframe').prop('src');
+                        videoURL = videoURL.replace("&autoplay=1", "");
+                        $('#' + modalId).find('iframe').prop('src', '');
+                        $('#' + modalId).find('iframe').prop('src', videoURL);
+                    });
+                });
+            </script>
+        </main>
+    </div>
+    <script src="js/jquery-3.3.1.min.js "></script>
+    <script src="js/bundle.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+</body>
+
+</html>
