@@ -1,5 +1,0 @@
-.header-main a img{max-width:inherit;}
-.nav-custom{width: inherit !important;}
-@media screen and (max-width: 900px) {
-	.header-main a img{max-width:100%;}
-	}
