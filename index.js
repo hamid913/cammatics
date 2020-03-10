@@ -35,5 +35,20 @@ app.get('/ensure',(request,response)=>
 
 });
 
+app.get('/contact',(request,response)=>{
+
+    fs.readFile('./html/contact.html', function (err, html) {
+        if (err) {
+            throw err;
+        }
+        else{
+            response.writeHeader(200, {"Content-Type": "text/html"});
+            response.write(html);
+            response.end();
+        }
+        });
+
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
